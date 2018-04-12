@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header, nav, aside, article, footer{
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	background: rgb(255, 0, 0);
+}
+nav{
+	height: 50px;
+	width: 100%;
+	background: rgb(0,0,255);
+}
+aside{
+	height: 400px;
+	width: 30%;
+	background: rgb(0,20,90);
+	float: left;
+}
+article{
+	height: 400px;
+	width: 100%;
+	background: rgb(90,20,90);
+}
+footer{
+	height: 100px;
+	width: 100%;
+	clear: both;
+	background: rgb(255, 80, 70);
+}
